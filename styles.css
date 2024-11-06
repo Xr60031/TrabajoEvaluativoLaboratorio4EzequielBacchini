@@ -71,15 +71,15 @@ section.Enlaces{
 }
 
 #CPyke{
-    background-image: url('https://i.imgur.com/6XAcFXG.png');
+    background-image: url('Fotos/BlurredPyke.png');
 }
 
 #CKindred{
-    background-image: url('https://i.imgur.com/q9Ir5oy.png');
+    background-image: url('Fotos/BlurredKindred.png');
 }
 
 #CFiddlesticks{
-    background-image: url('https://i.imgur.com/pKI2RD1.png');
+    background-image: url('Fotos/BlurredFiddlesticks.png');
 }
 
 .botonInfo{
@@ -124,4 +124,19 @@ section.Enlaces{
     left: 0%;
     width: 100%;
     transition: width .3s;
+}
+
+.navbar-toggler{
+    width: 47px;
+    height: 34px;
+    background-color: black;
+    border-color: #C8AA6E;
+}
+
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #C8AA6E;
+    margin: 2px 0px;
 }
