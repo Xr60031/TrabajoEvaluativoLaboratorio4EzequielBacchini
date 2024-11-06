@@ -35,7 +35,6 @@ body{
 }
 
 .imgCarrousel{
-    width: 800px;
     height: 475px;
     border-color: #C8AA6E;
     border-style: solid;
@@ -49,12 +48,6 @@ body{
     width: 250px;
     margin: 0 auto;
     text-align: center;
-}
-
-section.Enlaces{
-    display:flex;
-    justify-content: center;
-    column-gap: 25px;
 }
 
 .Tarjeta{
