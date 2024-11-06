@@ -1,0 +1,127 @@
+body{
+    background-color:  #050A17;
+    text-align:center;
+    color:White;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.TituloSeccion{
+    background-color: #C8AA6E;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    width: 200px;
+    display:inline-block;
+    margin-top:4rem;
+}
+
+.AccesoDirecto{
+    padding-block: min(5vh, 5rem);
+}
+
+.barranav{
+    border-color: #C8AA6E;
+    border-style: solid;
+}
+
+.enlaceAD{
+    color: #C8AA6E;
+}
+
+#barraDeNavegacion{
+    background-color: black;
+    color: #C8AA6E;
+}
+
+.imgCarrousel{
+    width:800px;
+    height: 475px;
+    border-color: #C8AA6E;
+    border-style: solid;
+}
+
+.textoCarrousel{
+    border-color: #C8AA6E;
+    border-style: solid;
+    color:#C8AA6E;
+    background-color:  #050A17;
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section.Enlaces{
+    display:flex;
+    justify-content: center;
+    column-gap: 25px;
+}
+
+.Tarjeta{
+    border-color: #C8AA6E;
+    border-style: solid;
+    color:#C8AA6E;
+}
+
+.imagenCarta{
+    width: 375px;
+    height: 375px;
+    border-color: #C8AA6E;
+    border-style: solid;
+}
+
+#CPyke{
+    background-image: url('https://i.imgur.com/6XAcFXG.png');
+}
+
+#CKindred{
+    background-image: url('https://i.imgur.com/q9Ir5oy.png');
+}
+
+#CFiddlesticks{
+    background-image: url('https://i.imgur.com/pKI2RD1.png');
+}
+
+.botonInfo{
+    background-color: #050A17;
+    color:#C8AA6E;
+    border-color: #C8AA6E;
+    border-style: solid;
+}
+
+.boxAD{
+    display: block;
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid #C8AA6E;
+    text-decoration: none;
+    color: #C8AA6E;
+    padding: 6px 10px;
+    margin-top: 0px;
+    text-align: center;
+    position: relative;
+    transition: color .3s;
+}
+
+.boxAD::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: #091531;
+    z-index: -1;
+    left: 100%;
+    width: 0%;
+    transition: .3s;
+}
+
+.boxAD:hover{
+    color: #c29439;
+}
+
+.boxAD:hover::before{
+    left: 0%;
+    width: 100%;
+    transition: width .3s;
+}
